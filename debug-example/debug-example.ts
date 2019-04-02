@@ -24,8 +24,8 @@ export class TSDebug extends LitElement {
     console.log('Check your sources, you should be debugging Typescript');
     debugger;
     let a = 2;
-    let b = 3;
-    let res = a!*b;
+    let b = 8;
+    let res = a*b;
     console.log('Result :', res);
   }
 
