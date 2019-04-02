@@ -1,0 +1,23 @@
+{
+  "name": "form-generator",
+  "version": "1.0.0",
+  "description": "Generates forms",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@rdrgcnn",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "polymer": "^0.5.0",
+    "typescript": "^3.4.1"
+  },
+  "dependencies": {
+    "@polymer/paper-button": "^3.0.1",
+    "@polymer/paper-card": "^3.0.1",
+    "@polymer/paper-styles": "^3.0.1",
+    "lit-element": "^2.1.0"
+  }
+}
